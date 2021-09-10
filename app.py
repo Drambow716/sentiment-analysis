@@ -6,6 +6,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 import emotions
 import random
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 inps = open('classifier.pkl', 'rb')
 model = pickle.load(inps)
 
