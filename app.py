@@ -46,7 +46,7 @@ def main():
     text2 = st.text_input("We promise we won't tell your boss")
     results = ''
 
-    choices = [text,text1,text2]
+    choices = [text,text1]
     choice = random.choice(choices)
 
     if st.button('Understand your feelings'):
